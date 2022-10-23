@@ -1,6 +1,6 @@
 name: sa_flutter_flavor
 description: provides a way of indicating and tracking Dart build flavors.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/magnatronus/sa_flutter_flavor
 
 

@@ -4,10 +4,10 @@ Yes, yet another *flavor* based package, sorry.
 This package helps when creating **'flavors'** of a Flutter App (this is for Dart code only - not OS specific apps). It allows definition of attributes for each *flavor* and provides a **FlavorBanner** that displays a visual indicator of the current running flavor.
 
 
-![Bottom Left Banner](/screenshots/banner_botleft.png?raw=true "Bottom Left Banner")
-![Top Left Banner](/screenshots/banner_topleft.png?raw=true "Top Left Banner")
-![Bottom Right Banner](/screenshots/banner_botright.png?raw=true "Bottom Right Banner")
-![Top Right Banner](/screenshots/banner_topright.png?raw=true "Top Right Banner")
+![Bottom Left Banner](https://raw.githubusercontent.com/magnatronus/sa_flutter_flavor/main/screenshots/banner_botleft.png?raw=true "Bottom Left Banner")
+![Top Left Banner](https://raw.githubusercontent.com/magnatronus/sa_flutter_flavor/main/screenshots/banner_topleft.png?raw=true "Top Left Banner")
+![Bottom Right Banner](https://raw.githubusercontent.com/magnatronus/sa_flutter_flavor/main/screenshots/banner_botright.png?raw=true "Bottom Right Banner")
+![Top Right Banner](https://raw.githubusercontent.com/magnatronus/sa_flutter_flavor/main/screenshots/banner_topright.png?raw=true "Top Right Banner")
 
 ## Features
 
