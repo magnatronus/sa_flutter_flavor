@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'flavor_banner_config.dart';
 
+/// Controls the position of the banner when displayed
 enum FlavorBannerPosition { topLeft, topRight, bottomLeft, bottomRight }
 
 /// This displays a Flavor Banner on the main app in the color specified by the flavor
@@ -11,9 +12,15 @@ enum FlavorBannerPosition { topLeft, topRight, bottomLeft, bottomRight }
 /// this defaults to bottomLeft.
 /// [bannerConfig] is taken from the current Flavor being used(via the [banner] attribute)
 class FlavorBanner extends StatelessWidget {
+  /// A child [Widget] the banner is displayed over
   final Widget child;
+
+  /// The [FlavorBannerConfig] ised to determine the banner displayed
   final FlavorBannerConfig bannerConfig;
+
+  /// The[FlavorBannerPosition] used to detrmine the position of any displayed Flavor banner
   final FlavorBannerPosition position;
+
   const FlavorBanner(
       {super.key,
       required this.child,
@@ -48,7 +55,7 @@ class FlavorBanner extends StatelessWidget {
     }
   }
 
-  /// Draw the flavor banner
+  /// Draw the flavor banner in the [location] specified
   Widget _buildBanner(BannerLocation location) {
     return Banner(
         key: const Key("sa_flavor_banner"),

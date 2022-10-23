@@ -10,9 +10,17 @@ import 'flavor_banner_config.dart';
 /// [attributes] one or more attrbutes that are set up for each flavor
 class FlavorConfig {
   final FlavorBannerConfig _banner;
+
+  /// a [String] that represents the name of the flavor being created
   final String name;
+
+  /// a [bool] flag that indicates if the Flavor is a production one(defaults to false)
   final bool isProduction;
+
+  /// The [Color] used for the display Flavor banner (defaults to brown)
   final Color color;
+
+  /// A set of mapped attributes that define the settings for the Flavor
   final Map<String, dynamic> attributes;
 
   FlavorConfig(
@@ -23,6 +31,7 @@ class FlavorConfig {
       : _banner =
             FlavorBannerConfig(name, color: color, isProduction: isProduction);
 
+  /// Return the [FlavourBannerConfig] banner data that is created when the config is setup
   FlavorBannerConfig get banner {
     return _banner;
   }

@@ -20,7 +20,7 @@ To get started just add the package to your main **pubspec.yaml** file.
 
 The idea of this package is to allow the maintenance and running of different versions of your app, for example you may want to connect a development or test app to a set of different end points that your production app. This can be achieved by setting up the **attributes** of various **flavors** of an app. 
 
-To make this as simple as possible it should be a matter of just setting up different version of the ```lib/main.dart``` file for each flavor. Do all the flavor changes in these files and then you can keep the rest of the app the same, which means must lest custom code for each flavor. 
+To make this as simple as possible it should be a matter of just setting up different version of the ```lib/main.dart``` file for each flavor. Do all the flavor changes in these files and then you can keep the rest of the app the same, which should mean must less custom code/maintenance for each flavor. 
 
 So for example:
 
@@ -29,7 +29,7 @@ So for example:
 - lib/main.dart (production flavor)
 
 
-See below for simple examples, or see the /example folder for more detailed use where the flavor is tracked by a Riverpod provider.
+See below for simple examples, or see the **/example** folder for more detailed use where the flavor is tracked by a Riverpod provider.
 
 
 ### main_dev.dart (our development flavor)
